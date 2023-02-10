@@ -11,7 +11,13 @@
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.7",
+    "@pothos/core": "^3.25.0",
+    "@pothos/plugin-prisma": "^3.41.0",
+    "@pothos/plugin-relay": "^3.35.0",
     "@prisma/client": "^3.7.0",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.5.1",
     "next": "^12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"
