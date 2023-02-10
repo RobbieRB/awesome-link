@@ -12,7 +12,7 @@ generator pothos {
 }
 
 model User {
-  id        String   @id @default(uuid())
+  id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   email     String?  @unique
@@ -27,7 +27,7 @@ enum Role {
 }
 
 model Link {
-  id          String   @id @default(uuid())
+  id          Int      @id @default(autoincrement())
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   title       String

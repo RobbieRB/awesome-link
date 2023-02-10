@@ -1,5 +1,7 @@
-import { builder } from "./builder";
-import "./types/Link";
-import "./types/User";
+// graphql/schema.ts
 
-export const schema = builder.toSchema();
+import { builder } from "./builder";
+import "./types/Link"
+import "./types/User"
+
+export const schema = builder.toSchema()
